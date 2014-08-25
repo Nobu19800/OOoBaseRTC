@@ -503,7 +503,6 @@ class Bridge(object):
 
 ##
 # OpenOffice Baseを操作するためのクラス
-# http://d.hatena.ne.jp/kakurasan/20100408/p1のソースコード(GPLv2)の一部を改変
 ##
 
 class OOoBase():
