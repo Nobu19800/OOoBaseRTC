@@ -328,6 +328,7 @@ class OOoBaseControl(OpenRTM_aist.DataFlowComponentBase):
       j["Statement"].close()
       j["Connection"].close()
       j["Connection"].dispose()
+    self.ConnectionList = {}
     return RTC.RTC_OK
   
   def onExecute(self, ec_id):
